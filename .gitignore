@@ -1,0 +1,6 @@
+/node_modules
+/package-lock.json
+/*.vcf
+/.idea
+/core/concat-array-from-file
+/try.js

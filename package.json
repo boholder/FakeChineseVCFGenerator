@@ -1,0 +1,12 @@
+{
+  "name": "fake-chinese-vcf-generator",
+  "version": "0.0.1",
+  "scripts": {
+    "generate": "node vcf-file-generator.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "faker": "^5.3.1",
+    "mustache": "^4.1.0"
+  }
+}
