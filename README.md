@@ -25,3 +25,6 @@ A Node.js based script that specially generating fake VCF format Chinese contact
 ```
 
 我有自觉，虽然由我说有点怪，这个预设生成的通讯录名字的口气蛮中年人的。如果不满意这种口气，请自行微调或添加新的Generator类。
+名字随机程序逻辑很简单：
+  1.数据存在预先写好的静态数组中，并通过类把它们组成不同级别的随机器，每个随机器设定了不同成分的随机概率。
+  3.从顶层开始一层层向下随机，最终得到一个随机的名字字符串。
